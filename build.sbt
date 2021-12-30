@@ -97,7 +97,7 @@ libraryDependencies ++= Seq(
 
   "org.asynchttpclient" % "async-http-client" % "2.6.+" % "test",
   "com.fasterxml.jackson.dataformat" % "jackson-dataformat-properties" % "2.9.2" % "test",
-  "com.spotify" % "docker-client" % "8.14.5" % "test" classifier "shaded"
+  "com.spotify" % "docker-client" % "8.16.0" % "test" classifier "shaded"
 )
 
 updateOptions := updateOptions.value.withLatestSnapshots(false)
